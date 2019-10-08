@@ -1,0 +1,98 @@
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="shortcut icon" href="https://raw.githubusercontent.com/Th3SnowyOwl/Th3SnowyOwl.github.io/master/favicon.ico" />
+        <script>
+            function GoToSite() {
+                var input = document.getElementById("userInput").value;
+                var specs = "height=768, width=1366"
+                window.open(input, "", specs);
+            }
+        </script>
+        <style>
+            h1 {
+                font-family: Arial, Sans-Serif;
+            }
+            ..GoToButton {
+                font-family: Arial, Sans-Serif;
+                border-color: blue;
+                border-radius: 20px;
+            }
+            .URLEntry {
+                font-family: Arial, Sans-Serif;
+                color: red;
+            }
+        </style>
+    </head>
+ 
+
+<body>
+<p>Quick launch buttons</p>
+<p></tr></p>
+<button onclick="openWin()">Open "RemotePC"</button>
+
+<button onclick="openWin1()">Open "Youtube"</button>
+
+<button onclick="openWin2()">Open "Ipfinder"</button>
+
+<button onclick="openWin3()">Open "YTdownload"</button>
+
+<button onclick="openWin4()">Open "Kproxy"</button>
+
+<button onclick="openWin5()">Open "Mincraft"</button>
+
+<button onclick="openWin6()">Open "Gmail"</button>
+
+<button onclick="openWin7()">Open "TF2"</button>
+<h1>Or, You Can Enter URL to travel to. (Remember to include (http(s)://)</h1>
+        <br />
+        <form id="form" onsubmit="return false;">
+            <input class="URLEntry" type="text" id="userInput" />
+            <input class="GoToButton" type="submit" onclick="GoToSite();" />
+        </form>
+<script>
+var RemotePC;
+function openWin() {
+  RemotePC = window.open("https://www.remotepc.com/rpcnew/viewer.html?name=Desktop&mid=00F14045041D&vmid=1557529386952tUNsqPJeSw&os=win&ver=7612#", "RemotePC", "width=1080,height=920");
+}
+var Youtube;
+function openWin1() {
+  Youtube = window.open("https://www.youtube.com", "Youtube", "width=1080,height=920");
+}
+var Ipfinder;
+function openWin2() {
+  Ipfinder = window.open("https:/whatsmyip.org", "Ipfinder", "width=1080,height=920");
+}
+var YTdownload;
+function openWin3() {
+  YTdownload = window.open("https://ytmp3.cc", "YTdownload", "width=1080,height=920");
+}
+var Kproxy;
+function openWin4() {
+  Kproxy = window.open("http://37.187.147.158/", "Kproxy", "width=1080,height=920");
+}
+var Minecraft;
+function openWin5() {
+  Minecraft = window.open("https://classic.minecraft.net", "Minecraft", "width=1080,height=920");
+}
+var Gmail;
+function openWin6() {
+  Gmail = window.open("https://mail.google.com/mail/u/1/#inbox", "Gmail", "width=1080,height=920");
+}
+var TF2;
+function openWin7() {
+  TF2 = window.open("tf2test.html", "TF2", "width=1080,height=920");
+}
+</script>
+
+<script>
+
+</script>
+</body>
+</html>
