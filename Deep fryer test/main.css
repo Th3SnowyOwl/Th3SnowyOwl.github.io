@@ -2,8 +2,7 @@
     display: none;
 }
 body{
-    background: url("https://raw.githubusercontent.com/Th3SnowyOwl/Th3SnowyOwl.github.io/master/Deep%20fryer%20test/images/deepfried1.png")
-    background-size: 255px 255px;
+    background: url('/images/deepfried1.png');
 }
 #dl-btn{
    visibility: hidden;
