@@ -5,4 +5,5 @@ This website can give you acces to 9 kproxy servers and all kinds of anonymous b
 
 
 
-Things anonymous hack can do change the background in the deep fryer to a image i have emailed him.
+Things anonymoushacker1279 can do. 
+Change the background in the deep fryer to a image i have emailed him.
