@@ -1,4 +1,6 @@
-
+ #Filters{
+    display: none;
+}
 body{
     background: url('https://github.com/Th3SnowyOwl/Th3SnowyOwl.github.io/blob/master/Deep%20fryer%20test/images/deepfried1.png');
 }
