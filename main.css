@@ -31,3 +31,16 @@
 .background {
    color: #ffffff;
 }
+h1 {
+   font-family: Arial, Sans-Serif;
+}
+.GoToButton {
+   font-family: Arial, Sans-Serif;
+   border-color: blue;
+   border-radius: 20px;
+}
+.URLEntry {
+   font-family: Arial, Sans-Serif;
+   color: red;
+}
+            }
