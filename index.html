@@ -103,7 +103,28 @@
 <p>If the method above does not work, try this. It is an embedded Youtube video Player</br>(Credit to jprusik on github.)</p>
 <button class="GoToButton1" onclick="openWin8()">Open "deepfryer"</button>
 <p></br></p>
-<p>Youtube Player<img onclick="openWin9()"  src="https://raw.githubusercontent.com/Th3SnowyOwl/Th3SnowyOwl.github.io/master/youtubelogo.png" alt="Submit" width="48" height="39" align="middle"></p>
+<input id="checky" type="checkbox">Click To Open Youtube Player in Dark Mode</input>
+<br />
+<a href="ytplayer/lightmodeyt.html" id="linky">Youtube Player</a>
+
+
+<script>
+var checky = document.getElementById('checky');
+var anchor = document.getElementById('linky');
+var link = anchor.getAttribute('href');
+
+function OpenWindow(href) {
+    if (checky.checked) {
+        window.open(href="ytplayer/darkmodeyt.html", '');
+    } else {
+        window.open(href="ytplayer/lightmode.html", '');
+    }
+}
+anchor.onclick = function () {
+    OpenWindow(link);
+    return false;
+};
+</script>
 
 <script>
 var RemotePC;
