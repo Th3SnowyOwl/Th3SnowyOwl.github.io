@@ -11,12 +11,8 @@
         </script>
 	<title>Google Docs</title>
         <style>
-	    .body {
-	        background: #333333;
-		color: #f5f5f5;
             .h1 {
                 font-family: Arial, Sans-Serif;
-		color: #f6f6f6;
             }
             .GoToButton {
                 font-family: Helvetica, Arial, Sans-Serif;
@@ -109,7 +105,7 @@
 <p></br></p>
 <input id="checky" type="checkbox">Click To Open Youtube Player in Dark Mode</input>
 <br />
-<a class="GoToButton" href="ytplayer/lightmodeyt.html" id="linky">Youtube Player</a>
+<a href="ytplayer/lightmodeyt.html" class="GoToButton" id="linky">Youtube Player</a>
 
 
 <script>
@@ -119,9 +115,9 @@ var link = anchor.getAttribute('href');
 
 function OpenWindow(href) {
     if (checky.checked) {
-        window.open(href="ytplayer/darkmodeyt.html", "_blank", "width=1518,height=853,toolbar=0,titlebar=0");
+        window.open(href="ytplayer/darkmodeyt.html", '');
     } else {
-        window.open(href="ytplayer/lightmodeyt.html", "_blank", "width=1518,height=853,toolbar=0,titlebar=0");
+        window.open(href="ytplayer/lightmodeyt.html", '');
     }
 }
 anchor.onclick = function () {
