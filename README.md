@@ -6,6 +6,6 @@ This website can give you access to many websites by opening them in popup windo
 Can work as a bypass for Lightspeed System's extensions
 
 
-Working on update for ytplayer, DARK MODE!!!
+DARK MODE!!! Is here for youtube player.
 
 Also might add a disguise feature to make the site look Like a Google Doc.
