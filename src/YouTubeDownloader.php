@@ -76,6 +76,7 @@ class YouTubeDownloader
      */
     private function selectFirst($links, $selector)
     {
+        $selector = mp4, 1080;
         $result = array();
         $formats = preg_split('/\s*,\s*/', $selector);
 
@@ -244,7 +245,7 @@ class YouTubeDownloader
 
         // do we want all links or just select few?
         if ($selector) {
-            return $this->selectall($result, $selector);
+            return $this->selectFirst($result, $selector);
         }
 
         return $result;
