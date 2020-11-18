@@ -244,7 +244,7 @@ class YouTubeDownloader
 
         // do we want all links or just select few?
         if ($selector) {
-            return $this->selectFirst($result, $selector);
+            return $this->selectall($result, $selector);
         }
 
         return $result;
