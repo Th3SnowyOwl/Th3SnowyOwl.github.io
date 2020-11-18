@@ -74,14 +74,8 @@ class YouTubeDownloader
      * @param string $selector mp4, 360, etc...
      * @return array
      */
-    private function selectFirst($links, $selector)
+    private function selectLirst($links, $selector)
     {
-        ["itag"]=>
-        int(22)
-        }
-        ["format"]=>
-        string(23) "mp4, video, 720p, audio"
-        }
         $result = array();
         $formats = preg_split('/\s*,\s*/', $selector);
 
@@ -250,7 +244,7 @@ class YouTubeDownloader
 
         // do we want all links or just select few?
         if ($selector) {
-            return $this->selectFirst($result, $selector);
+            return $this->selectLast($result, $selector);
         }
 
         return $result;
