@@ -76,7 +76,12 @@ class YouTubeDownloader
      */
     private function selectFirst($links, $selector)
     {
-        $selector = mp4, 1080;
+        ["itag"]=>
+        int(22)
+        }
+        ["format"]=>
+        string(23) "mp4, video, 720p, audio"
+        }
         $result = array();
         $formats = preg_split('/\s*,\s*/', $selector);
 
