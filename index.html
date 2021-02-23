@@ -65,15 +65,8 @@
 <button class="GoToButton1" onclick="openWin2()">Open Ipfinder</button>
 <button class="GoToButton1" onclick="openWin3()">My Youtube Downloader</button>
 <button class="GoToButton1" onclick="openWin8()">Open "deepfryer"</button>
-<button id="showembed" onclick="showembed()">Weekly Spiral Review Awnser Keys</button>
 <p></br></p>
-<iframe id="forshowembed" data-src="https://th3snowyowl.github.io/coding-extras/" src="about:blank" width="500" height="200" style="background:#ffffff"></iframe>
-<script>
-function showembed() {
-    var iframe = $("#forshowembed");
-    iframe.attr("src", iframe.data("src"));
-}
-</script>
+<button class="GoToButton" onclick="openWin5()">Weekly Spiral Review Awnser Keys</button>
 <p></br></p>
 <p></br></p>
 <p></br></p>
@@ -102,19 +95,23 @@ anchor.onclick = function () {
 <script>
 var Youtube;
 function openWin1() {
-  Youtube = window.open("https://www.youtube.com", "Youtube", "width=1080,height=920");
+  Youtube = window.open("https://www.youtube.com", "Youtube", "width=1080,height=720");
 }
 var Ipfinder;
 function openWin2() {
-  Ipfinder = window.open("https://www.whatsmyip.org", "Ipfinder", "width=1080,height=920");
+  Ipfinder = window.open("https://www.whatsmyip.org", "Ipfinder", "width=1080,height=720");
 }
 var YTdownload;
 function openWin3() {
-  YTdownload = window.location.assign("https://classroomyt-google.herokuapp.com/", "YTdownload", "width=1080,height=920");
+  YTdownload = window.location.assign("https://classroomyt-google.herokuapp.com/", "YTdownload", "width=1080,height=720");
 }
 var deepfryer;
 function openWin8() {
-  deepfryer = window.open("https://th3snowyowl.github.io/Deep%20fryer%20test/index.html", "deepfryer", "width=1080,height=920");
+  deepfryer = window.open("https://th3snowyowl.github.io/Deep%20fryer%20test/index.html", "deepfryer", "width=1080,height=720");
+}
+var spirals;
+function openWin5() {
+  spirals = window.open("https://th3snowyowl.github.io/coding-extras/", "spirals", "width=1080,height=720");
 }
 </script>
 
